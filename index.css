@@ -1,0 +1,33 @@
+#sinal{
+    height: 300px;
+    width: 100px;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    justify-content: space-between;
+    align-items: center;
+    border:5px solid #000;
+    background-color:#000;
+}
+
+#sinal > div{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+#vermelho{
+    background-color: red;
+}
+
+#verde{
+    background-color: green;
+}
+
+#amarelo{
+    background-color: yellow;
+}
+
+#sinal > div[data-inativo="true"]{
+    background-color: #1e1e1e;
+}
